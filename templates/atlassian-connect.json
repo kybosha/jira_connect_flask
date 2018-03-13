@@ -10,6 +10,11 @@
      "authentication": {
          "type": "none"
      },
+     "scopes": [
+       "READ",
+       "WRITE",
+       "DELETE"
+     ],
      "apiVersion": 1,
      "modules": {
          "generalPages": [
