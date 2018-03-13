@@ -1,6 +1,6 @@
 {
      "name": "Jira Cat",
-     "description": "Atlassian Connect app for Jira",
+     "description": "Added in some scopes",
      "key": "jira.cat.appp",
      "baseUrl": "https://jira-connect-app.herokuapp.com/atlassian-connect",
      "vendor": {
