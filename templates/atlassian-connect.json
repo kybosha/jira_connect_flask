@@ -1,0 +1,26 @@
+{
+     "name": "Jira Cat",
+     "description": "Atlassian Connect app for Jira",
+     "key": "jira.cat.appp",
+     "baseUrl": "https://<placeholder-url>",
+     "vendor": {
+         "name": "Example, Inc.",
+         "url": "http://example.com"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/helloworld.html",
+                 "key": "hello-world",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "Greeting"
+                 }
+             }
+         ]
+     }
+ }
