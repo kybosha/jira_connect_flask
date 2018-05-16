@@ -5,7 +5,7 @@ app = Flask(__name__, static_url_path='/atlassian-connect', static_folder='stati
 
 @app.route("/")
 def status():
-    return "I am alive!"
+    return "I am very much alive!"
 
 @app.route("/helloworld.html")
 def action():
