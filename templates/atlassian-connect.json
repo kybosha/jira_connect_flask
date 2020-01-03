@@ -10,6 +10,12 @@
      "authentication": {
          "type": "none"
      },
+     "lifecycle": {
+        "installed": "/installed",
+        "uninstalled": "/uninstalled",
+        "enabled": "/enabled",
+        "disabled": "/disabled"
+     },
      "scopes": [
        "READ",
        "WRITE"
