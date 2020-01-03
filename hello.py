@@ -17,28 +17,28 @@ def descriptor():
     return render_template('atlassian-connect.json')
     #return url_for('static', filename='atlassian-connect.json')
 
-@app.route("/installed", methods=['POST'])
+@app.route("/atlassian-connect/installed", methods=['POST'])
 def installed():
     print("Installed hook received.")
     data = request.data
     print(data)
     return json.dumps({'success': True}), 200, {'Content-Type': 'application/json'} 
 
-@app.route("/uninstalled", methods=['POST'])
+@app.route("/atlassian-connect/uninstalled", methods=['POST'])
 def uninstalled():
     print("Uninstalled hook received.")
     data = request.data
     print(data)
     return json.dumps({'success': True}), 200, {'Content-Type': 'application/json'} 
 
-@app.route("/enabled", methods=['POST'])
+@app.route("/atlassian-connect/enabled", methods=['POST'])
 def enabled():
     print("Enabled hook received.")
     data = request.data
     print(data)
     return json.dumps({'success': True}), 200, {'Content-Type': 'application/json'} 
 
-@app.route("/disabled", methods=['POST'])
+@app.route("/atlassian-connect/disabled", methods=['POST'])
 def disabled():
     print("Disabled hook received.")
     data = request.data
