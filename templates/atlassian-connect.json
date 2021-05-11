@@ -1,5 +1,5 @@
 {
-     "name": "Jira Cat",
+     "name": "MPAC Support Test App",
      "description": "Added in some scopes",
      "key": "jira.cat.appp",
      "baseUrl": "https://jira-connect-app.herokuapp.com/atlassian-connect",
