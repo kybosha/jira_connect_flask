@@ -18,7 +18,8 @@
      },
      "scopes": [
        "READ",
-       "WRITE"
+       "WRITE",
+       "DELETE"
      ],
      "apiVersion": 1,
      "modules": {
